@@ -1,5 +1,3 @@
-package main;
-
 public class Calculator {
 
 	public double sum(double a, double b) {
@@ -13,6 +11,14 @@ public class Calculator {
 	public double multiply(double a, double b) {
 		return a * b;
 	}
+
+	/**
+	 *
+	 * @param a
+	 * @param b
+	 * @throws IllegalArgumentException when b is zero
+	 * @return
+	 */
 
 	public double divide(double a, double b) {
 		if (b == 0) {
